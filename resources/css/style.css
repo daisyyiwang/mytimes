@@ -1,11 +1,12 @@
 .container{
   display: flex;
+  align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   justify-content: space-between;
   position: fixed;
-  border-bottom: solid;
+  border-bottom: 1px solid black;
   width: 100%;
   background-color: white;
   top: 0;
@@ -13,6 +14,7 @@
 
 .logo{
   display: flex;
+  align-items: center;
   padding: 10px;
 }
 
@@ -44,17 +46,17 @@ ul.nav li{
 }
 
 .left{
-  width: 630px;
+  flex: 1 1 630px;
   padding-right: 32px;
 }
 
 .center{
-  width: 300px;
+  flex: 1 1 300px;
   padding-right: 32px;
 }
 
 .right{
-  width: 240px;
+  flex: 1 1 240px;
 }
 
 .leftsecond{
@@ -63,7 +65,7 @@ ul.nav li{
 }
 
 .orca, .burger{
-  width: 299px;
+  flex: 1 1 299px;
 }
 
 .orca{
@@ -122,6 +124,7 @@ h1{
 #newsbites{
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
 }
 
 .footer{
